@@ -3,7 +3,7 @@
     <head>
     <title> Registration Page </title>
         <link rel="stylesheet" href="/Lab3/Design/Style.css">
-        <script src="/Lab3/Javascript/Script.js"> </script>
+        <script src="/Lab3/Javascript/Script.js"></script>
     </head>
     <body>
     <header class="top">
@@ -17,15 +17,17 @@
    </header>
     <h1> Patient Registration (Adnmission) </h1>
     
-    <form onsubmit="return collet_data()">
+    <form onsubmit="return collect_data()">
          
         <label for="Name">Patient Name:</label> 
          <br>
          <input type="text" id="PatientName" name="Name" placeholder="Enter your name">
+         <p id="NameError"></p>
         
          <br> <br>
         
-         <label for="Age">Age:</label> <br>
+        <label for="Age">Age:</label> 
+        <br>
         <input type="number" id="Age" name="PatientAge">
         <p id ="AgeError"></p>
         
@@ -33,6 +35,7 @@
 
         <label for="DOB"> Date of Birth: </label>
         <input type="date" id="DOB" name ="PatientDOB">
+        
         
         <br><br>
 
