@@ -23,6 +23,7 @@
          <br>
          <input type="text" id="PatientName" name="Name" placeholder="Enter your name" onclick="return collect_name()">
          <p id="NameError"></p>
+         <p id="printname"></p>
         
          <br> <br>
         
@@ -71,8 +72,9 @@
 
         <br><br>
 
-        <label for="Submit">Submit Info: </label>
-        <input type="submit" id="submit" name="DataSubmit">
+        <!-- <label for="Submit">Submit Info: </label>
+        <input type="submit" id="submit" name="DataSubmit"> -->
+        <button id="submitbtn" onclick="return submit_key()">Submit</button>
         
     </form>
 </body>
