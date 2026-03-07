@@ -50,3 +50,13 @@ div.relative{
     min-width: 200px;
     resize: vertical;
 }
+button{
+    background-color: aquamarine;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgb(243, 16, 24);
+    border-radius: 3px;
+    border-color: rgb(213, 159, 169);
+}
