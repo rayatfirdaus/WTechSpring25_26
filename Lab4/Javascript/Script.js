@@ -14,6 +14,19 @@ function collect_name() {
     let name = document.getElementById("PatientName").value;
     console.log("Name: " , name);
     document.getElementById("PatientName").style.color = "blue";
+    document.getElementById("printname").innerHTML= name;
+    return false;
+}
+function collect_age(){
+    let age = document.getElementById("Age").value;
+    console.log("Patient age: " , age);
+    document.getElementById("printage").innerHTML=age;
+    if(age==""){
+        document.getElementById("AgeError").innerHTML="Please enter your age";
+    }
+    else{
+
+    }
     return false;
 }
 function collect_address() {
