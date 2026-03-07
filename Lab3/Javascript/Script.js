@@ -25,6 +25,7 @@ function collect_data() {
     let isnamevalid = collect_name();
     let isagevalid = collect_age();
 
+
     // let name = document.getElementById("PatientName").value;
     // let age = document.getElementById("Age").value;
     // let dob = document.getElementById("DOB").value;
@@ -32,7 +33,7 @@ function collect_data() {
     // console.log("Patient age: " , age);
     // console.log("Patient DOB: ", dob);
 
-    //return false; // To prevent form submission and page reload
+    return false; // To prevent form submission and page reload
 }
 function collect_name(){
     let name= document.getElementById("PatientName").value;
