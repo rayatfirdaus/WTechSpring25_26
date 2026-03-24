@@ -16,7 +16,7 @@ const days = 30;
 const quantity = document.getElementById("quantityPerDay");
 const totalPrice = document.getElementById("totalPrice");
 
-quantity.addEventListener("input", function () {
+quantity.addEventListener("input", function (){
     const qty = quantityPerDay.value;
     const total = unitPrice * qty * days;
     totalPrice.value = total;
