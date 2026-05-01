@@ -13,11 +13,11 @@ include "../Controller/RegistrationController.php";
         <table>
             <tr>
                 <td><label for="Username">User Name: </label></td>
-                <td><input type="text" id="name"> </td>
+                <td><input type="text" id="name" name="name"><?php echo $name ?> </td>
             </tr>
             <tr>
                 <td><label for="Password">Password: </label></td>
-                <td><input type="password" id="password"> </td>
+                <td><input type="password" id="password" name="password"><?php echo $password ?>  </td>
             </tr>
             <tr>
                 <td>
